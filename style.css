@@ -192,6 +192,7 @@ main{
       flex-direction: column;
       justify-content: space-between;  
       padding: 2em;  
+      transition: all ease-in-out 200ms;
  }
 
  .post_container  img{
@@ -203,9 +204,28 @@ main{
      background-color: rgb(0, 252, 0);
      padding: 0.3em 0;
      border-radius: 10px;
+     border: none;
+     transition: all ease-in-out 200ms;
  }
+
+.post_card button a {
+      text-decoration: none;
+      color: black;
+
+}
+
+.post_card button:hover{
+    rotate: 3deg; 
+    background-color: rgb(74, 255, 74);
+
+}
  .post_card p{
-      
+      font-size: 1.3rem;
+
+ }
+
+ .post_card:hover{
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
  }
  @media (max-width:760px) {
      .post_container{ 
